@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Components/Home';
-import Login from './pages/Login/Components/SignInSide';
+import Login from './pages/Login/Components/Login';
 import Contact from './pages/Contact/Components/Contact';
 
 

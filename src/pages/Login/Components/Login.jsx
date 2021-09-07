@@ -18,8 +18,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="https://material-ui.com/" >
+        <span id="footer-link">Your Website</span>
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignInSide() {
+export default function Login() {
   const classes = useStyles();
   let history = useHistory();
   const handleSubmit = () => {
